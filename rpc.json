@@ -1,1 +1,57 @@
-
+{
+  "1": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "rpcs": ["https://mainnet.infura.io/v3/YOUR_PROJECT_ID", "https://rpc.ankr.com/eth"]
+  },
+  "10": {
+    "name": "Optimism",
+    "symbol": "ETH",
+    "rpcs": ["https://optimism-mainnet.infura.io/v3/YOUR_PROJECT_ID", "https://mainnet.optimism.io"]
+  },
+  "42161": {
+    "name": "Arbitrum One",
+    "symbol": "ETH",
+    "rpcs": ["https://arb1.arbitrum.io/rpc", "https://arbitrum-mainnet.infura.io/v3/YOUR_PROJECT_ID"]
+  },
+  "8453": {
+    "name": "Base",
+    "symbol": "ETH",
+    "rpcs": ["https://base-mainnet.public.blastapi.io", "https://base-mainnet.infura.io/v3/YOUR_PROJECT_ID"]
+  },
+  "143": {
+    "name": "Monad",
+    "symbol": "MON",
+    "rpcs": ["https://rpc.monad.xyz", "https://monad-rpc.com"]
+  },
+  "137": {
+    "name": "Polygon",
+    "symbol": "POL",
+    "rpcs": ["https://polygon-rpc.com", "https://polygon-mainnet.infura.io/v3/YOUR_PROJECT_ID"]
+  },
+  "2741": {
+    "name": "Metis",
+    "symbol": "ETH",
+    "rpcs": ["https://andromeda.metis.io/?owner=1088", "https://metis-mainnet.public.blastapi.io"]
+  },
+  "43114": {
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "rpcs": ["https://api.avax.network/ext/bc/C/rpc", "https://avalanche-mainnet.infura.io/v3/YOUR_PROJECT_ID"]
+  },
+  "80094": {
+    "name": "Berachain",
+    "symbol": "BERA",
+    "rpcs": ["https://bera-rpc.com", "https://bera-mainnet.public.blastapi.io"]
+  },
+  "999": {
+    "name": "Hyperliquid",
+    "symbol": "HYPE",
+    "rpcs": ["https://rpc.hyperliquid.xyz", "https://hyperliquid-rpc.com"]
+  },
+  "33139": {
+    "name": "Apechain",
+    "symbol": "APE",
+    "rpcs": ["https://rpc.apechain.com", "https://apechain-rpc.com"]
+  }
+}
