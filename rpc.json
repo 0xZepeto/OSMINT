@@ -10,7 +10,7 @@
     "rpcs": ["https://optimism-mainnet.infura.io/v3/YOUR_PROJECT_ID", "https://mainnet.optimism.io"]
   },
   "42161": {
-    "name": "Arbitrum One",
+    "name": "Arbitrum",
     "symbol": "ETH",
     "rpcs": ["https://arb1.arbitrum.io/rpc", "https://arbitrum-mainnet.infura.io/v3/YOUR_PROJECT_ID"]
   },
