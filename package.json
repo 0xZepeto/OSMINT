@@ -1,0 +1,23 @@
+{
+  "name": "OSMINT",
+  "version": "2.0.0",
+  "description": "OSMINT nodejs version",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.12.0",
+    "ethers": "^5.7.2",
+    "ora": "^5.4.1"
+  },
+  "keywords": [
+    "nft",
+    "mint",
+    "seadrop",
+    "multimint"
+  ],
+  "author": "0xZepeto",
+  "license": "MIT"
+}
