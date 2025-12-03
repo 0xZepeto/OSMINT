@@ -184,7 +184,7 @@ async function selectChain(chains) {
 // Fungsi utama
 async function main() {
     try {
-        console.log(chalk.cyan.bold('Auto SeaDrop MultiMint V2 By ADFMID Team'));
+        console.log(chalk.cyan.bold('OSMINT BY 0XZEPETO'));
         console.log("");
         
         // Baca private keys
