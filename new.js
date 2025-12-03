@@ -67,9 +67,9 @@ async function signSendWait(wallet, tx, provider) {
 function displayChainList(chains) {
     console.log(chalk.cyan("\nAvailable Chains:"));
     chains.forEach((chain, index) => {
-        console.log(`${index + 1}. ${chain.name} (Chain ID: ${chain.chainId}, Symbol: ${chain.symbol})`);
+        console.log(`${index + 1}. ${chain.name.toUpperCase()} (${chain.symbol})`);
     });
-    console.log(`${chains.length + 1}. Add New Chain`);
+    console.log(`${chains.length + 1}. ADD NEW CHAIN`);
 }
 
 // Fungsi untuk menambah chain baru
@@ -233,6 +233,7 @@ async function main() {
             return;
         }
         
+        // Tampilkan selected chain dengan format yang diminta
         console.log(chalk.green(`\nSelected chain: ${selectedChain.name} (${selectedChain.chainId})`));
         
         // Input NFT dan jumlah mint
